@@ -1,8 +1,8 @@
 import unittest
-from sklearn import model_selection
 import numpy as np
 import scipy.sparse as sparse
-from .example import EXAMPLE_X, EXAMPLE_y
+from sklearn import model_selection
+from skmultilearn.tests.example import EXAMPLE_X, EXAMPLE_y
 
 class ClassifierBaseTest(unittest.TestCase):
     def get_multilabel_data_for_tests(self, sparsity_indicator):

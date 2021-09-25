@@ -7,8 +7,8 @@ from builtins import range
 from builtins import zip
 from sklearn.base import BaseEstimator
 
-from .test_utils import SPARSE_MATRIX_FORMATS
-from ..base import ProblemTransformationBase
+from skmultilearn.tests.test_utils import SPARSE_MATRIX_FORMATS
+from skmultilearn.base import ProblemTransformationBase
 
 
 class ProblemTransformationBaseTest(unittest.TestCase):

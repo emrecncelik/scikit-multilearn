@@ -2,7 +2,7 @@ import unittest
 import numpy as np
 import scipy.sparse as sp
 
-from ..utils import get_matrix_in_format, matrix_creation_function_for_format
+from skmultilearn.utils import get_matrix_in_format, matrix_creation_function_for_format
 
 SPARSE_MATRIX_FORMATS = ["bsr", "coo", "csc", "csr", "dia", "dok", "lil"]
 
