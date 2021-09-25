@@ -1,3 +1,5 @@
+
+
 from copy import copy
 from openne.gf import GraphFactorization
 from openne.graph import Graph
@@ -8,8 +10,10 @@ from openne.line import LINE
 from openne.lle import LLE
 import networkx as nx
 import numpy as np
-import tensorflow as tf
 import scipy.sparse as sp
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+tf.compat.v1.disable_eager_execution()
 
 class OpenNetworkEmbedder:
     """Embed the label space using a label network embedder from OpenNE
