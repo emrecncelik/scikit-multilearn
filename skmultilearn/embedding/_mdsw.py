@@ -6,14 +6,13 @@ Weighted Multi-dimensional Scaling (MDS)
 # Licence: BSD
 # from: https://raw.githubusercontent.com/ej0cl6/csmlc/master/models/mdsw.py
 
-import numpy as np
 import warnings
-
+import numpy as np
+from joblib import Parallel
+from joblib import delayed
 from sklearn.base import BaseEstimator
 from sklearn.metrics import euclidean_distances
 from sklearn.utils import check_random_state, check_array, check_symmetric
-from sklearn.externals.joblib import Parallel
-from sklearn.externals.joblib import delayed
 from sklearn.isotonic import IsotonicRegression
 
 

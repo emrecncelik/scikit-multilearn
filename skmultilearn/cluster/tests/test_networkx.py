@@ -3,7 +3,7 @@ import scipy.sparse as sp
 
 from skmultilearn.cluster import NetworkXLabelGraphClusterer
 from skmultilearn.tests.classifier_basetest import ClassifierBaseTest
-from .test_base import supported_graphbuilder_generator
+from skmultilearn.cluster.tests.test_base import supported_graphbuilder_generator
 
 
 def get_networkx_clusterers():

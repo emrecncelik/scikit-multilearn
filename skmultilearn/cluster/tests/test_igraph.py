@@ -3,7 +3,7 @@ import scipy.sparse as sp
 import sys
 
 if sys.platform != 'win32':
-    from skmultilearn.cluster import IGraphLabelGraphClusterer
+    from skmultilearn.cluster.igraph import IGraphLabelGraphClusterer
     from skmultilearn.tests.classifier_basetest import ClassifierBaseTest
     from .test_base import supported_graphbuilder_generator
 
