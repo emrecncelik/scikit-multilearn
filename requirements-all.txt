@@ -2,3 +2,5 @@
 -r requirements/gpl.txt
 -r requirements/meka.txt
 -r requirements/test.txt
+-r requirements/keras.txt
+-r requirements/dev.txt
